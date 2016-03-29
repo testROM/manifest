@@ -16,6 +16,7 @@
 
   <!-- testrom repositories -->
   <project path="manifest" name="manifest" remote="testrom" revision="alpha" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="testrom" revision="alpha" />
 
   <!-- AOSP repositories -->
   <project path="build" name="platform/build" groups="pdk" >
