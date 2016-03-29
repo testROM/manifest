@@ -10,6 +10,8 @@
 
   <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
+           sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <!-- testrom repositories -->
