@@ -13,6 +13,7 @@
            sync-j="4" />
 
   <!-- testrom repositories -->
+  <project path="manifest" name="manifest" remote="testrom" revision="alpha" />
 
   <!-- AOSP repositories -->
   <project path="build" name="platform/build" groups="pdk" >
