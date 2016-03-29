@@ -2,11 +2,19 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="testrom"
+           fetch="https://github.com/testROM" />
+
   <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-j="4" />
 
+  <!-- testrom repositories -->
+
+  <!-- AOSP repositories -->
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
