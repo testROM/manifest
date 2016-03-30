@@ -18,6 +18,9 @@
   <project path="manifest" name="manifest" remote="testrom" revision="alpha" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="testrom" revision="alpha" />
 
+  <!-- proprietary vendors repositories -->
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="testrom" revision="alpha" />
+
   <!-- AOSP repositories -->
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
