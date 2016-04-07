@@ -26,3 +26,5 @@ After syncing is done, use these commands to build:
     yyyy= build type (user,userdebug,eng)*
 
     *if no build type is specified "userdebug" is default
+
+ENJOY!
